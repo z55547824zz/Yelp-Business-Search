@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+    <link rel="stylesheet" type = "text/css" href="business.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+</head>
+<body class="container">
+<script src="business.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-top-3">
+        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="/">Supplyframe Challenge - Yelp Fusion API Business Search</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom-3">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home Page</a>
+                <a class="nav-item nav-link active" href="#">Business List</a>
+                <a class="nav-item nav-link disabled" href="#">Business Detail</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+<br>
+    <% if (!result) {%>
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">Oops!</h4>
+            <p>No results returned, please check your input!</p>
+            <hr>
+            <p class="mb-0">A sample valid input Should be like: Sushi, 10 miles, Food, Pasadena.</p>
+        </div>
+    <% } %>
+
+    <% if (result) {%>
+        <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <hr>
+            <p>Aww yeah, you successfully got the businesses list you may interest.</p>
+        </div>
+    <% }%>
+        <br>
+
+
+
+    <table class="container table table-striped table-hover" id="myTable" style="margin: auto; text-align: center; background: white; border-radius: 15px">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Image</th>
+            <th>Business Name</th>
+            <th>Rating</th>
+            <th>Distance (miles)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% var i = 0; %>
+            <% typeof businesses == 'undefined' ? '' : businesses.forEach(function (businesses) {i++; var det = 'http://127.0.0.1:3000/yelpDetail?id=' + businesses.id; %>
+            <tr style="margin: auto" onclick="location.href='<%= det %>'">
+                <td><%= i %></td>
+                <td><img src="<%= businesses.image %>" style="width: 100px; height: 100px"></td>
+                <td ><a style="margin: auto"><%= businesses.name %></a></td>
+                <td><%= businesses.rating %></td>
+                <td><%= businesses.distance %></td>
+            </tr>
+            <% }); %>
+
+        </tbody>
+    </table>
+    <div id="pagination"></div>
+
+    <script>
+        var table = document.getElementById("myTable");
+        var rowsPerPage = 5;
+        var currentPage = 0;
+
+        function displayRows() {
+            var rows = table.rows;
+            var start = currentPage * rowsPerPage + 1;
+            var end = start + rowsPerPage - 1;
+
+            for (var i = 0; i < 4; i++) {
+                if (i == currentPage) {
+                    // document.getElementById("pagination"+i).style = "background : red";
+                } else {
+                    // document.getElementById("pagination"+i).classList = "";
+                }
+            }
+
+            for (var i = 1; i < rows.length; i++) {
+                if (i < start || i > end) {
+                    rows[i].style.display = "none";
+                } else {
+                    rows[i].style.display = "table-row";
+                }
+            }
+        }
+
+        function createPagination() {
+            var numPages = Math.ceil((table.rows.length - 1) / rowsPerPage);
+            var pagination = document.getElementById("pagination");
+
+
+
+            for (var i = 0; i < numPages; i++) {
+                var link = document.createElement("button");
+                link.href = "#";
+                link.innerHTML = i + 1;
+                link.id = "pagination" + i;
+                link.onclick = function() {
+                    currentPage = parseInt(this.innerHTML) - 1;
+                    displayRows();
+                    return false;
+                };
+                pagination.appendChild(link);
+                // pagination.innerHTML = " <nav aria-label=\"Page navigation example\"> <ul class=\"pagination\"> <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Previous</a></li> <li class=\"page-item active\"><a class=\"page-link\" href=\"#\">1</a></li> <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li> <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li> <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Next</a></li> </ul> </nav>"
+            }
+        }
+
+        displayRows();
+        createPagination();
+    </script>
+    <p><%= typeof businesses == 'undefined' ? 'No results returned, please check your input.' : '' %></p>
+
+</main>
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

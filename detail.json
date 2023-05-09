@@ -1,0 +1,147 @@
+{
+  "id": "Wo9m6OKoqRY37y4NiposIA",
+  "alias": "kagura-el-segundo-el-segundo",
+  "name": "Kagura El Segundo",
+  "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/eEBq_2zTmKiabwFWi4dAJA/o.jpg",
+  "is_claimed": true,
+  "is_closed": false,
+  "url": "https://www.yelp.com/biz/kagura-el-segundo-el-segundo?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+  "phone": "+13103330689",
+  "display_phone": "(310) 333-0689",
+  "review_count": 523,
+  "categories": [
+    {
+      "alias": "japanese",
+      "title": "Japanese"
+    },
+    {
+      "alias": "sushi",
+      "title": "Sushi Bars"
+    },
+    {
+      "alias": "noodles",
+      "title": "Noodles"
+    }
+  ],
+  "rating": 4.5,
+  "location": {
+    "address1": "403 Main St",
+    "address2": "",
+    "address3": "",
+    "city": "El Segundo",
+    "zip_code": "90245",
+    "country": "US",
+    "state": "CA",
+    "display_address": [
+      "403 Main St",
+      "El Segundo, CA 90245"
+    ],
+    "cross_streets": ""
+  },
+  "coordinates": {
+    "latitude": 33.9210577953505,
+    "longitude": -118.416083114205
+  },
+  "photos": [
+    "https://s3-media2.fl.yelpcdn.com/bphoto/eEBq_2zTmKiabwFWi4dAJA/o.jpg",
+    "https://s3-media2.fl.yelpcdn.com/bphoto/qQHhCInBnvnWSR34p2xbwQ/o.jpg",
+    "https://s3-media3.fl.yelpcdn.com/bphoto/-Te3hKZ4ryi3_o2hbmLXTQ/o.jpg"
+  ],
+  "price": "$$",
+  "hours": [
+    {
+      "open": [
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 0
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 0
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 1
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 1
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 2
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 2
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 3
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 3
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 4
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 4
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 5
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2130",
+          "day": 5
+        },
+        {
+          "is_overnight": false,
+          "start": "1130",
+          "end": "1400",
+          "day": 6
+        },
+        {
+          "is_overnight": false,
+          "start": "1700",
+          "end": "2100",
+          "day": 6
+        }
+      ],
+      "hours_type": "REGULAR",
+      "is_open_now": false
+    }
+  ],
+  "transactions": [
+    "delivery",
+    "restaurant_reservation"
+  ]
+}

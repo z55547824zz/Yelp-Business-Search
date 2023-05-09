@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+    <link rel="stylesheet" type = "text/css" href="business.css">
+</head>
+<body class="container" onload="autoLoc()">
+<script src="business.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-top-3">
+        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="/">Supplyframe Challenge - Yelp Fusion API Business Search</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom-3">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home Page</a>
+                <a class="nav-item nav-link" href="#" onclick="history.back()">Business List</a>
+                <a class="nav-item nav-link active" href="#">Business Detail</a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="card bg-dark text-white">
+        <img style="height: 200px; object-fit: cover;" src="https://s3-media3.fl.yelpcdn.com/bphoto/uh5frqyB_8YT7_m3K_UDCA/o.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h1 class="card-title"><%= business.name %></h1>
+            <p class="card-text"></p>
+            <p class="card-text"><%= business.address %></p>
+        </div>
+    </div>
+
+    <div id="ddiv" class="rounded" style="background-color:gainsboro; visibility: visible; margin: auto; text-align: center">
+
+        <br><br>
+            <div style="text-align: center">
+                <h2 class="mt-3 mb-3"><%= business.name %></h2>
+            </div>
+            <div id="businessdetail" class="mt-5 md-3 container ">
+                <div class="row">
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Address</a>
+                            <br>
+                            <a><%= business.address %></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Category</a>
+                            <br>
+                            <a><%= business.category %></a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Phone</a>
+                            <br>
+                            <a><%= business.phone %></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Price range</a>
+                            <br>
+                            <a><%= business.price %></a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Status</a>
+                            <br>
+                            <a><%= business.status %></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row" style="text-align: center">
+                            <a style="font-weight: bold">Visit yelp for more</a>
+                            <br>
+                            <a href="<%= business.more %>" target="_blank"><%= business.name %></a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <div id="carouselExampleIndicators" class="md-5 carousel slide carousel-fade rounded" data-ride="carousel" data-interval="2500">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="<%= business.img1%>" class="d-block" alt="..." style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<%= business.img2%>" class="d-block" alt="..." style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<%= business.img3%>" class="d-block" alt="..." style="width: 100%; height: 400px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+<br>
+
+            </div>
+
+
+
+    </div>
+
+
+
+
+</main>
+
+<br>
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

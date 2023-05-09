@@ -1,0 +1,910 @@
+{
+  "businesses": [
+    {
+      "id": "yvYLj4skf1Tq9NON4hr9yw",
+      "alias": "wazabi-sushi-hacienda-heights-hacienda-heights",
+      "name": "Wazabi Sushi- Hacienda Heights",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/HCv9Ufyr2MO89a7QcG6qxw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/wazabi-sushi-hacienda-heights-hacienda-heights?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 753,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.981444,
+        "longitude": -117.973888
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "3107 Colima Rd",
+        "address2": null,
+        "address3": null,
+        "city": "Hacienda Heights",
+        "zip_code": "91745",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "3107 Colima Rd",
+          "Hacienda Heights, CA 91745"
+        ]
+      },
+      "phone": "+16263337222",
+      "display_phone": "(626) 333-7222",
+      "distance": 3165.8485649223294
+    },
+    {
+      "id": "-NMZKp0SFfr_8Hsh33Mxdw",
+      "alias": "101-sushi-roll-and-grill-city-of-industry",
+      "name": "101 Sushi Roll and Grill",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/HDVa7h51MZ3C2VyPlUl6-w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/101-sushi-roll-and-grill-city-of-industry?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 3963,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.0139181,
+        "longitude": -117.9725895
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "15347 Gale Ave",
+        "address2": "",
+        "address3": "",
+        "city": "City of Industry",
+        "zip_code": "91745",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "15347 Gale Ave",
+          "City of Industry, CA 91745"
+        ]
+      },
+      "phone": "+16263332223",
+      "display_phone": "(626) 333-2223",
+      "distance": 3000.8369896418308
+    },
+    {
+      "id": "4mqFmkGXsBP3Uk9j8MZS7g",
+      "alias": "kopan-sushi-and-ramen-whittier-whittier-2",
+      "name": "Kopan Sushi & Ramen - Whittier",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/uh5frqyB_8YT7_m3K_UDCA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kopan-sushi-and-ramen-whittier-whittier-2?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 722,
+      "categories": [
+        {
+          "alias": "ramen",
+          "title": "Ramen"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.944933,
+        "longitude": -117.996398
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "15498 Whittier Blvd",
+        "address2": "Unit B",
+        "address3": null,
+        "city": "Whittier",
+        "zip_code": "90603",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "15498 Whittier Blvd",
+          "Unit B",
+          "Whittier, CA 90603"
+        ]
+      },
+      "phone": "+15629022632",
+      "display_phone": "(562) 902-2632",
+      "distance": 6105.059155346941
+    },
+    {
+      "id": "x7Wwb_FICzztfJtsu3cgzw",
+      "alias": "e-sushi-whittier",
+      "name": "E Sushi",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/e85YsgSD8nj8ZIdn0p6khQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/e-sushi-whittier?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 724,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.9458014404716,
+        "longitude": -118.00017464154
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "15334 Whittier Blvd",
+        "address2": "Ste 6",
+        "address3": "",
+        "city": "Whittier",
+        "zip_code": "90603",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "15334 Whittier Blvd",
+          "Ste 6",
+          "Whittier, CA 90603"
+        ]
+      },
+      "phone": "+15629438997",
+      "display_phone": "(562) 943-8997",
+      "distance": 6026.619684122878
+    },
+    {
+      "id": "KmVfivIplmvE1sBoRFwjgA",
+      "alias": "azabu-whittier",
+      "name": "Azabu ",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/lxtathlYuG0rURdy410voA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/azabu-whittier?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 206,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "cocktailbars",
+          "title": "Cocktail Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.97931,
+        "longitude": -118.03541
+      },
+      "transactions": [],
+      "location": {
+        "address1": "13119 Philadelphia St",
+        "address2": "",
+        "address3": null,
+        "city": "Whittier",
+        "zip_code": "90601",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "13119 Philadelphia St",
+          "Whittier, CA 90601"
+        ]
+      },
+      "phone": "+15627890881",
+      "display_phone": "(562) 789-0881",
+      "distance": 3998.5002372737367
+    },
+    {
+      "id": "6O9gNk7RJT_zJeYAcfpHDg",
+      "alias": "meiga-sushi-la-habra-2",
+      "name": "Meiga Sushi",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vg6DBBjlSWpn-p_p7ErXaA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/meiga-sushi-la-habra-2?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 1085,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.930656,
+        "longitude": -117.968216
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "141 S Beach Blvd",
+        "address2": null,
+        "address3": "",
+        "city": "La Habra",
+        "zip_code": "90631",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "141 S Beach Blvd",
+          "La Habra, CA 90631"
+        ]
+      },
+      "phone": "+15626909321",
+      "display_phone": "(562) 690-9321",
+      "distance": 8249.040399301764
+    },
+    {
+      "id": "MLmpI-nj50NU7v9AJfbgZg",
+      "alias": "kamon-sushi-city-of-industry-2",
+      "name": "Kamon Sushi",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/R8i85VN8y-NfpHDOfaBkNA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kamon-sushi-city-of-industry-2?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 988,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.9902209,
+        "longitude": -117.9146842
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "17855 Colima Rd",
+        "address2": "",
+        "address3": "",
+        "city": "City of Industry",
+        "zip_code": "91748",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "17855 Colima Rd",
+          "City of Industry, CA 91748"
+        ]
+      },
+      "phone": "+16269655895",
+      "display_phone": "(626) 965-5895",
+      "distance": 7854.639831886344
+    },
+    {
+      "id": "yQr0LO58WmU_8uGgdR97Yg",
+      "alias": "sake-2-me-sushi-cerritos-9",
+      "name": "Sake 2 Me Sushi",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9K0ZIYYNIAdVTannPp7XZw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sake-2-me-sushi-cerritos-9?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 3669,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.8576175572064,
+        "longitude": -118.089369376761
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$$",
+      "location": {
+        "address1": "11454 South St",
+        "address2": "",
+        "address3": "",
+        "city": "Cerritos",
+        "zip_code": "90703",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "11454 South St",
+          "Cerritos, CA 90703"
+        ]
+      },
+      "phone": "+15629244700",
+      "display_phone": "(562) 924-4700",
+      "distance": 17850.614853509753
+    },
+    {
+      "id": "6rHNecDh9e-2x-ihpmst9A",
+      "alias": "oji-sushi-and-sake-bar-montebello-4",
+      "name": "Oji Sushi & Sake Bar",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ymMwRq0xQ7rdax4u99WoNA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/oji-sushi-and-sake-bar-montebello-4?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 547,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "asianfusion",
+          "title": "Asian Fusion"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 34.0176042234539,
+        "longitude": -118.106506611043
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "800 W Beverly Blvd",
+        "address2": "",
+        "address3": null,
+        "city": "Montebello",
+        "zip_code": "90640",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "800 W Beverly Blvd",
+          "Montebello, CA 90640"
+        ]
+      },
+      "phone": "+13237286000",
+      "display_phone": "(323) 728-6000",
+      "distance": 10010.512880506432
+    },
+    {
+      "id": "OaVRYxXRrLGgRLgUHykh4Q",
+      "alias": "akasaka-sushi-restaurant-hacienda-heights",
+      "name": "Akasaka Sushi Restaurant",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Q4KszGt1nQXVFqD-F-rhKg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/akasaka-sushi-restaurant-hacienda-heights?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 1597,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.02042555709891,
+        "longitude": -117.97913435552242
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "14926 Clark Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Hacienda Heights",
+        "zip_code": "91745",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "14926 Clark Ave",
+          "Hacienda Heights, CA 91745"
+        ]
+      },
+      "phone": "+16263360871",
+      "display_phone": "(626) 336-0871",
+      "distance": 2976.130875254904
+    },
+    {
+      "id": "t86B_uarji1z71U5tht6Bg",
+      "alias": "sushiholic-la-mirada",
+      "name": "Sushiholic",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/cosdwp-_HTVLz1cT7cDqUA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushiholic-la-mirada?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 593,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.918738,
+        "longitude": -117.994872
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "15749 Imperial Hwy",
+        "address2": "",
+        "address3": "",
+        "city": "La Mirada",
+        "zip_code": "90638",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "15749 Imperial Hwy",
+          "La Mirada, CA 90638"
+        ]
+      },
+      "phone": "+15629430100",
+      "display_phone": "(562) 943-0100",
+      "distance": 9048.280956161776
+    },
+    {
+      "id": "npn-dysLHB23NIQJPYgU7Q",
+      "alias": "higo-sushi-la-habra",
+      "name": "Higo Sushi",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/OUnWy8wfIQC_R-Ll5DXzfQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/higo-sushi-la-habra?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 675,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "peruvian",
+          "title": "Peruvian"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.94056,
+        "longitude": -117.962035
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1451 W Whittier Blvd",
+        "address2": null,
+        "address3": "",
+        "city": "La Habra",
+        "zip_code": "90631",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1451 W Whittier Blvd",
+          "La Habra, CA 90631"
+        ]
+      },
+      "phone": "+15626918662",
+      "display_phone": "(562) 691-8662",
+      "distance": 7479.40668285789
+    },
+    {
+      "id": "1sWGdLNEICT_06SpHDkQUQ",
+      "alias": "makiyaki-sushi-and-izakaya-hacienda-heights",
+      "name": "Makiyaki Sushi & Izakaya",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/h-Xy9sB_44_wjYf4MHi6WA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/makiyaki-sushi-and-izakaya-hacienda-heights?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 60,
+      "categories": [
+        {
+          "alias": "izakaya",
+          "title": "Izakaya"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.99642071855632,
+        "longitude": -117.96520809078734
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "15944 Halliburton Rd",
+        "address2": "",
+        "address3": null,
+        "city": "Hacienda Heights",
+        "zip_code": "91745",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "15944 Halliburton Rd",
+          "Hacienda Heights, CA 91745"
+        ]
+      },
+      "phone": "+16268209111",
+      "display_phone": "(626) 820-9111",
+      "distance": 3231.9474923828097
+    },
+    {
+      "id": "NqTk7-5rluAz8Ftf4kNMlA",
+      "alias": "sushi-yuen-city-of-industry-2",
+      "name": "Sushi Yuen",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/zat-efq6T72rT9YCAZmjGg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushi-yuen-city-of-industry-2?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 389,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.994855,
+        "longitude": -117.899568
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$$$",
+      "location": {
+        "address1": "18558 Gale Ave",
+        "address2": "Unit 100-102",
+        "address3": null,
+        "city": "City of Industry",
+        "zip_code": "91748",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "18558 Gale Ave",
+          "Unit 100-102",
+          "City of Industry, CA 91748"
+        ]
+      },
+      "phone": "+16262952283",
+      "display_phone": "(626) 295-2283",
+      "distance": 9286.796552813355
+    },
+    {
+      "id": "j-ePqwL5yRHLRpGbPd-QOA",
+      "alias": "krudos-sushi-and-modern-kitchen-south-el-monte",
+      "name": "Krudos Sushi & Modern Kitchen",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Sz9xewZxkDLtzz6AjwWs7w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/krudos-sushi-and-modern-kitchen-south-el-monte?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 185,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 3.5,
+      "coordinates": {
+        "latitude": 34.0432075691514,
+        "longitude": -118.033391162753
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1725 Durfee Ave",
+        "address2": "",
+        "address3": null,
+        "city": "South El Monte",
+        "zip_code": "91733",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1725 Durfee Ave",
+          "South El Monte, CA 91733"
+        ]
+      },
+      "phone": "+16265221601",
+      "display_phone": "(626) 522-1601",
+      "distance": 5705.524949306365
+    },
+    {
+      "id": "_tMhtswgwu3UAEvFEOxDzw",
+      "alias": "dakara-sushi-whittier",
+      "name": "Dakara Sushi",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/IGplyPd_Y0oUqQRfBBV2Eg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/dakara-sushi-whittier?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 359,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.9501924695491,
+        "longitude": -118.010516973021
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "14748 Whittier Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Whittier",
+        "zip_code": "90603",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "14748 Whittier Blvd",
+          "Whittier, CA 90603"
+        ]
+      },
+      "phone": "+15626980707",
+      "display_phone": "(562) 698-0707",
+      "distance": 5622.6045756319345
+    },
+    {
+      "id": "MuGb6IwCmL41gikDJkIxww",
+      "alias": "sushi-umi-hacienda-heights",
+      "name": "Sushi Umi",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fxITYsuO8EGQ10QXp1JD4Q/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/sushi-umi-hacienda-heights?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 363,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.980299,
+        "longitude": -117.973428
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "3135 S Hacienda Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Hacienda Heights",
+        "zip_code": "91745",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "3135 S Hacienda Blvd",
+          "Hacienda Heights, CA 91745"
+        ]
+      },
+      "phone": "+16269347731",
+      "display_phone": "(626) 934-7731",
+      "distance": 3286.4168855851112
+    },
+    {
+      "id": "PnnqV9pyzGMZL0DhIKIZkA",
+      "alias": "maki-yaki-japanese-grill-uptown-whittier",
+      "name": "Maki Yaki Japanese Grill - Uptown",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oy7WqpFDHkv1M_D7Uu9qwA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/maki-yaki-japanese-grill-uptown-whittier?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 33,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 33.979788,
+        "longitude": -118.035973
+      },
+      "transactions": [],
+      "location": {
+        "address1": "6736 Bright Ave",
+        "address2": null,
+        "address3": "",
+        "city": "Whittier",
+        "zip_code": "90601",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "6736 Bright Ave",
+          "Whittier, CA 90601"
+        ]
+      },
+      "phone": "+15626935757",
+      "display_phone": "(562) 693-5757",
+      "distance": 4007.784600183473
+    },
+    {
+      "id": "7e5KtDsYcOMuP7fC3_peGw",
+      "alias": "crazy-rockn-sushi-la-puente-la-puente",
+      "name": "Crazy Rock'N Sushi - La Puente",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/H_5QapyBW5KFJXeKFnx-ZQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/crazy-rockn-sushi-la-puente-la-puente?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 1499,
+      "categories": [
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        },
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4,
+      "coordinates": {
+        "latitude": 34.0390726459129,
+        "longitude": -117.950197787471
+      },
+      "transactions": [
+        "pickup",
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "1065 N Hacienda Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "La Puente",
+        "zip_code": "91744",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "1065 N Hacienda Blvd",
+          "La Puente, CA 91744"
+        ]
+      },
+      "phone": "+16263336265",
+      "display_phone": "(626) 333-6265",
+      "distance": 6320.109917944887
+    },
+    {
+      "id": "V7nZe3kogamRuskVPsYemA",
+      "alias": "raku-roll-and-teriyaki-whittier-4",
+      "name": "Raku Roll & Teriyaki",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vLkhLBUKPBNqJU00ZReS6w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/raku-roll-and-teriyaki-whittier-4?adjust_creative=zLsIz6Ome0CU3UIcxjoCmQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=zLsIz6Ome0CU3UIcxjoCmQ",
+      "review_count": 212,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.9983004,
+        "longitude": -118.0555703
+      },
+      "transactions": [
+        "delivery"
+      ],
+      "price": "$$",
+      "location": {
+        "address1": "5416 Norwalk Blvd",
+        "address2": "",
+        "address3": "",
+        "city": "Whittier",
+        "zip_code": "90601",
+        "country": "US",
+        "state": "CA",
+        "display_address": [
+          "5416 Norwalk Blvd",
+          "Whittier, CA 90601"
+        ]
+      },
+      "phone": "+15626924500",
+      "display_phone": "(562) 692-4500",
+      "distance": 5149.266056393681
+    }
+  ],
+  "total": 898,
+  "region": {
+    "center": {
+      "longitude": -118,
+      "latitude": 34
+    }
+  }
+}

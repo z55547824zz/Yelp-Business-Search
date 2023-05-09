@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+    <link rel="stylesheet" type = "text/css" href="business.css">
+</head>
+<body class="container" onload="autoLoc()">
+<script src="business.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+<header>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg rounded-top-3">
+            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="/">Supplyframe Challenge - Yelp Fusion API Business Search</a>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded-bottom-3">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="/">Home Page</a>
+                    <a class="nav-item nav-link disabled" href="#">Business List</a>
+                    <a class="nav-item nav-link disabled" href="#">Business Detail</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <div class="mt-md-5 container-fluid ">
+        <div class="container col-md-6 col-sm-10 ">
+            <div style="background: gainsboro; border-radius: 15px" class="shadow-lg border border-info">
+                <div class="mt-md-4 mb-md-4 mt-3 mb-3" style="text-align: center">
+                    <br><br>
+                    <a style="font-size: 25px; font-weight: bold">Yelp Business Search</a>
+                    <br><br>
+                </div>
+
+                <div>
+                    <form role="form" class="col-11 container" action="http://127.0.0.1:3000/yelpListAuto" method="get">
+                        <div class="form-group container col-md-12 col-12">
+                            <label for="Keyword" class="form-label"><a>Keyword</a><a style="color: red">*</a></label>
+                            <input type="text" class="form-control shadow-lg" id="Keyword" name="keyword" required>
+                        </div>
+                        <div class="mt-md-4 mb-md-4 mt-3 mb-3 row container-fluid">
+                            <div class="mt-md-4 mb-md-4 mt-3 mb-3 col-md-6">
+                                <label><a>Distance (miles) </a></label><br>
+                                <input type="number" class="form-control shadow-lg" id="Distance" name="distance" value="10" required/>
+                            </div>
+                            <div class="mt-md-4 mb-md-4 mt-3 mb-3 col-md-5">
+                                <label><a>Category</a><a style="color: red">*</a></label><br>
+                                <select id="Category" name="category" class="form-select shadow-lg" >
+                                    <option value="Default">Default</option>
+                                    <option value="Arts & Entertainment">Arts & Entertainment</option>
+                                    <option value="Health & Medical">Health & Medical</option>
+                                    <option value="Hotels & Travel">Hotels & Travel</option>
+                                    <option value="Food">Food</option>
+                                    <option value="Professional Services">Professional Services</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group container">
+                            <label><a id="location_word">Location</a><a style="color: red" id="location_star">*</a></label><br>
+                            <input type="text" class="form-control shadow-lg" disabled="true" id="Location" name="location" required = "false"/>
+                        </div>
+
+                        <div class="mt-md-4 mb-md-4 mt-3 mb-3 checkbox container">
+                            <label>
+                                <a>Want us to auto-detect your location? Check here </a>
+                                <input type="checkbox" id="auto" class="shadow-lg" onclick="autoLoc()">
+                            </label>
+                        </div>
+                        <input type="text" id="autoValue" name="auto" style="visibility: hidden; height: 0px" value="">
+                        <input type="text" id="ipLat" name="ipLat" style="visibility: hidden; height: 0px" value="34.0290">
+                        <input type="text" id="ipLng" name="ipLng" style="visibility: hidden; height: 0px" value="-118.3152">
+
+                        <div class="form-group container-fluid col-md-12 col-12">
+                            <button id="but0" type="submit" class="btn btn-outline-primary m-2 shadow"><a>Submit</a></button>
+                            <button type="button" id="but1" onclick="clearForm()" class="btn btn-outline-danger m-2 shadow"><a>Clear</a></button>
+                        </div>
+                    </form>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!--        <div style="background-color:gainsboro; border: 7px solid #C7C7C7; width: 850px; margin: auto">-->
+<!--            <div id="banner">-->
+<!--                <div>-->
+<!--                    <br><br>-->
+<!--                    <a style="font-size: 30px; color: white; margin-left: 60px; font-weight: bold">Yelp Business Search</a>-->
+<!--                    <br><br><br>-->
+<!--                    <a style="font-size: 26px; color: white; margin-left: 60px; margin-bottom: 20px">Fill out the form to get business near you!</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            &lt;!&ndash;http://127.0.0.1:3000/yelpListAuto?keyword=sushi&distance=16000&category=default&location=lax&auto=true&ipLat=34.0290&ipLng=-118.3152&ndash;&gt;-->
+<!--&lt;!&ndash;            http://127.0.0.1:3000/yelpListAuto?keyword=sushi&Distance=10&Category=Default&auto=on&ndash;&gt;-->
+<!--&lt;!&ndash;            http://127.0.0.1:3000/yelpListAuto?keyword=sushi&distance=10&category=Default&ipLat=34.0290&ipLng=-118.3152&auto=on&ndash;&gt;-->
+
+<!--&lt;!&ndash;            https://csci571hw7-367411.uw.r.appspot.com/yelpListNA?keyword=sushi&distance=16000&category=default&location=lax&ipLat=34&ipLng=-118&auto=true&ndash;&gt;-->
+
+<!--&lt;!&ndash;            http://127.0.0.1:3000/yelpListAuto?keyword=sushi&distance=10&category=Default&Location=lax&ipLat=34.0290&ipLng=-118.3152&auto=false&ndash;&gt;-->
+
+<!--            <div>-->
+<!--                <form action="http://127.0.0.1:3000/yelpListAuto" method="get">-->
+<!--                    <div>-->
+<!--                        <div>-->
+<!--                            <br>-->
+<!--                            <label><a style="color: #4F6FAD; margin-left: 60px; font-size: 20px">Keyword</a><a style="color: red">*</a></label><br>-->
+<!--                            <input type="text" id="Keyword" name="keyword" style="width: 720px; height: 30px; margin-left: 60px" required/><br>-->
+<!--                            <br>-->
+<!--                            <label><a style="color: #4F6FAD; margin-left: 60px; font-size: 20px">Distance(miles)</a></label>-->
+<!--                            <label><a style="color: #4F6FAD; margin-left: 175px; font-size: 20px">Category</a><a style="color: red">*</a></label><br>-->
+<!--                            <input type="number" id="Distance" name="distance" style="width: 200px; height: 30px; margin-left: 60px" value="10" required/>-->
+<!--                            <select id="Category" name="category" style="width: 400px; height: 30px; margin-left: 115px">-->
+<!--                                <option value="Default">Default</option>-->
+<!--                                <option value="Arts & Entertainment">Arts & Entertainment</option>-->
+<!--                                <option value="Health & Medical">Health & Medical</option>-->
+<!--                                <option value="Hotels & Travel">Hotels & Travel</option>-->
+<!--                                <option value="Food">Food</option>-->
+<!--                                <option value="Professional Services">Professional Services</option>-->
+<!--                            </select>-->
+<!--                            <br><br>-->
+<!--                            <label><a style="color: #4F6FAD; margin-left: 60px; font-size: 20px" id="location_word">Location</a><a style="color: red" id="location_star">*</a></label><br>-->
+<!--                            <input type="text" id="Location" name="location" disabled="true" style="width: 720px; height: 30px; margin-left: 60px" required = "false"/>-->
+
+<!--                            <input type="text" id="ipLat" name="ipLat" style="visibility: hidden" value="34.0290">-->
+<!--                            <input type="text" id="ipLng" name="ipLng" style="visibility: hidden" value="-118.3152">-->
+<!--                            <input type="text" id="autoValue" name="auto" style="visibility: hidden" value="">-->
+<!--                            <br>-->
+<!--                            <hr style="color: #4F6FAD; width: 730px"/>-->
+<!--                            <br>-->
+<!--                            <a style="color: #4F6FAD; margin-left: 60px; font-size: 25px">Want us to auto-detect your location? Check here</a>-->
+<!--                            <input type="checkbox" id="auto" onclick="autoLoc()" style="width: 23px; height: 23px"/>-->
+
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <br><br>-->
+
+<!--                    <button id="but0" type="submit" ><a style="color: white; font-size: 25px">SUBMIT</a></button>-->
+<!--                    <button type="button" id="but1" onclick="clearForm()" ><a style="color: white; font-size: 25px">CLEAR</a></button>-->
+<!--                    <button type="submit" class="btn btn-outline-success"><a>Submit</a></button>-->
+<!--                    <br>-->
+<!--                </form>-->
+
+<!--                <br><br>-->
+<!--            </div>-->
+
+<!--        </div>-->
+
+
+
+    </div>
+
+</main>
+
+<br>
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

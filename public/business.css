@@ -1,0 +1,106 @@
+#table-container {
+    overflow-x: auto;
+}
+
+body {
+    background-image: url("bg1.png");
+}
+
+#my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#my-table th,
+#my-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#pagination {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#pagination button {
+    padding: 8px 16px;
+    margin: 0 4px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#pagination button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+table{
+    width:1000px;
+    margin:auto;
+    border-collapse:collapse;/*边框合并模式*/
+    text-align:center;
+}
+.tID {
+
+    border: 1px solid gray;
+    height: 100px;
+    width: 50px;
+}
+.tIMG {
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+}
+.tName {
+    border: 1px solid gray;
+    height: 100px;
+    width: 550px;
+}
+.tRating {
+    border: 1px solid gray;
+    height: 100px;
+    width: 150px;
+}
+.tDis {
+    border: 1px solid gray;
+    height: 100px;
+    width: 150px;
+}
+th {
+    border: 1px solid white;
+}
+.hd {
+    height:40px;
+    background-color: #4F6FAD;
+}
+.hds {
+    height:40px;
+    background-color: #4F6FAD;
+}
+.hds:hover {
+    cursor: pointer;
+    height:40px;
+    background-color: #4F6FAD;
+}
+.nameList:hover{
+    cursor: pointer;
+    color: gray;
+}
+.detailImgs:hover{
+    border: 0.1px solid black;
+}
+/*#pagination button {*/
+/*    display: inline-block;*/
+/*    background-color: #ddd;*/
+/*    color: #333;*/
+/*    text-decoration: none;*/
+/*}*/
+#pagination button:hover {
+    background-color: #0f63fd;
+    color: #fff;
+}
