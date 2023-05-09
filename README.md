@@ -42,19 +42,19 @@ node server.js
 ## Usage
 
 1. Heading to the Home Page with url: http://127.0.0.1:3000/
-<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Home_Page.png">
+<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Home_Page-min.png">
 
 2. Input the required information for the target businesses
-<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Home_Page1.png">
+<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Home_Page1-min.png">
 
 3. If th input information is valid and there are results returned, search results will be displayed in a list with pagination
-<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_List.png">
+<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_List-min.png">
 
 Otherwise there will be a prompt of notice showing the sample of valid input
-<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_List1.png">
+<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_List1-min.png">
 
 4. Click the row of the business you may interested, then the detail of that business will be shown 
-<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_Detail.png">
+<img width="1000" alt="image" src="https://z55547824zz.github.io/mess/Business_Detail-min.png">
 
 
 
