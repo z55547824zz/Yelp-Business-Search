@@ -73,5 +73,5 @@ Run Jest Test
 npm test
 ```
 
-<img width="600" alt="image" src="https://z55547824zz.github.io/mess/jest_test.png">
+<img width="450" alt="image" src="https://z55547824zz.github.io/mess/jest_test.png">
 
