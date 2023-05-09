@@ -23,13 +23,32 @@ If you are using Windows you will also need
 [gcc](https://gcc.gnu.org/). It comes installed
 on Mac and almost all Linux distributions.
 
+
+```sh
+git clone https://github.com/z55547824zz/Yelp-Business-Search.git
+```
+
+```sh
+cd Yelp-Business-Search
+```
+
+```sh
+npm install
+```
+
+```sh
+node server.js
+```
+
+
+
 ## Start in development mode
 
 In the project directory run the command (you might
 need to prepend it with `sudo` depending on your setup):
 
 ```sh
-docker-compose -f docker-compose-dev.yml up
+git clone https://github.com/z55547824zz/Yelp-Business-Search.git
 ```
 
 This starts a local MongoDB on `localhost:27017`.
